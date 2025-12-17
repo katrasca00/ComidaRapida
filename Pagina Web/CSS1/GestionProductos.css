@@ -1,0 +1,84 @@
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+/* Encabezado Menu QuickBite Express*/
+.encabezado {
+  background-color: #51001a !important;
+}
+
+/*separar logo de nombre */
+.encabezado {
+    display: flex;
+    width: 100%;
+    color:#ffffff;
+    display: flex;
+    align-items: center; /* para verticalmente */
+    justify-content: center; /* para horizontalmente todo el bloque */
+    position: relative/*para separarlos y que no se centren ambos*/
+}
+.logo {
+    position: absolute;
+    top: -4px;;
+    left: 0px;
+    width: 75px; /* ajustar el tamaño  */
+    height: 60px;
+    filter: none;
+    opacity: 1;
+}
+
+.product-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.product-table {
+  width: 85%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-table th, .product-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-table th {
+  background-color: #51001a;
+  color: white;
+}
+
+.product-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.cuerpo h2{
+   color:#51001a;
+   display: flex;
+   align-items: center; /* para verticalmente */
+   justify-content: center; /* para horizontalmente todo el bloque */
+   position: relative/*para separarlos y que no se centren ambos*/
+}
+.boton-dec {
+    display: inline-block;
+    background-color: #51001a;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.boton-dec:hover{
+   background-color: red; 
+}

@@ -1,0 +1,130 @@
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+.menu-productos {
+  text-align: center; 
+  margin: 0 auto; 
+  width: 80%;
+}
+.menu-productos table {
+  margin-left: 200px;
+}
+
+.menu-productos h2{
+  color: #51001a;
+  font-size: 40px; /*es como poner negrilla vuelev mas grande el texto */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+/* Encabezado Menu QuickBite Express*/
+.encabezado {
+  background-color: #51001a !important;
+}
+
+/*separar logo de nombre */
+.encabezado {
+    color:#ffffff;
+    display: flex;
+    align-items: center; /* para verticalmente */
+    justify-content: center; /* para horizontalmente todo el bloque */
+    position: relative/*para separarlos y que no se centren ambos*/
+}
+
+/* tamaño del logo */
+.logo {
+    position: absolute;
+    left: 0px;
+    width: 100px; /* ajustar el tamaño  */
+    height: 80px;
+    filter: none;
+    opacity: 1;
+}
+
+/* Barra de navegación */
+.marconegro {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between; /* separa los botones */
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.inicio {
+    background-color: #51001a;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.inicio:hover {
+    background-color: #a00000;/* Cambia el color al pasar el mouse*/
+    transform: scale(1.05);
+}
+
+.micuenta  {
+    background-color: #51001a;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.micuenta:hover {
+    background-color: #a00000;/* lo mismo de arriba*/
+    transform: scale(1.05);
+}
+
+
+.btn-agregar {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-agregar:hover {
+  background-color: #0056b3;
+}
+
+.btn-carrito {
+  display: inline-block;
+  background-color: #287da7;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-carrito:hover {
+  background-color: #1f2b7a;
+}
+
+
+.btn-agregar{
+  display: inline-block;
+  background-color: #287da7;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-agregar:hover{
+  background-color: #1f2b7a;
+}

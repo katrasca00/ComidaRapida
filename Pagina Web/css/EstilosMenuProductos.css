@@ -1,0 +1,16 @@
+.menu-productos table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.menu-productos th {
+  background-color: #ff9800;
+  color: white;
+}
+
+.menu-productos td, 
+.menu-productos th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}

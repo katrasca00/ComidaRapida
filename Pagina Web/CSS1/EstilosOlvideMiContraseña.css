@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+/*configuracion de ¿Olvidaste tu contraseña?*/
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+/*texto*/
+p {
+  color: #666;
+  font-size: 14px;
+}
+/*casilla para texto "correo electronico"*/
+.form-group {
+  margin: 20px 0;
+  text-align: left;
+}
+/*ancho del boton*/
+.btn {
+  width: 100%;
+}
+/*link pos para volver a iniciar sesion distancia entre boton y link*/
+.volver {
+  margin-top: 20px;
+}
+
+.volver a {
+  color: #007bff;/*color del link*/
+  text-decoration: none;/*quitar subrayado*/
+  transition: 0.3s;/*mini animacion*/
+}
+
+.volver a:hover {
+  text-decoration: underline;
+}

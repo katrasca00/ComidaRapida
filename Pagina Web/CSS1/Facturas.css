@@ -1,0 +1,59 @@
+/* Encabezado Menu QuickBite Express*/
+.encabezado {
+  background-color: #51001a !important;
+}
+
+/*separar logo de nombre */
+.encabezado {
+  color:#ffffff;  
+  justify-content: space-between; /* separa los botones */
+  align-items: center;
+  padding: 20px 10px;    
+}
+.encabezado h1{
+    text-align: center;
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+/* le cambio eltamaño del logo casi que no funciona :/ */
+.logo {
+    top: 0px;
+    padding: 0px 0px;  
+    position: absolute;
+    left: 0px;
+    width: 100px; /* ajustar el tamaño  */
+    height: 100px;
+    filter: none;
+    opacity: 1;
+}
+
+/* Barra de navegación la parte que va de negro con los dos links */
+.marconegro {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between; /* separo los botones de la parte de navegacion*/
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.MenuClientes {
+    background-color: #51001a;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.MenuClientes:hover {
+    background-color: #a00000;/* Cambia el color al pasar el mouse nice se ve bien*/
+    transform: scale(1.05);/* Le da como un pequeño zoom al pasar el mouse */
+}
+
+.btn-descargar{
+    background-color: #51001a;
+    color: #ffffff;
+}

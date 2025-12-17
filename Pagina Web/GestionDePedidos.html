@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Pedidos</title>
+  <link rel="stylesheet" type="text/css" href="CSS1/GestionDePedidos.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.min.css">
+</head>
+<body>
+  <header class="encabezado">
+    <h1>Gestión de Pedidos</h1>
+        <img src="IMG/35703b18-43bb-4550-a453-cf199b9bab9b.png" alt="Logo" class="logo">
+  </header>
+
+  <main class="cuerpo">
+    <section class="pedido-section">
+      <h2>Pedidos Pendientes</h2>
+      <p>Administra los pedidos y actualiza su estado.</p>
+
+      <table class="pedido-table">
+        <thead>
+          <tr>
+            <th>ID Pedido</th>
+            <th>Cliente</th>
+            <th>Producto</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>Juan Pérez</td>
+            <td>Hamburguesa Clásica</td>
+            <td>
+              <select class="form-select form-select-sm">
+                <option>En preparación</option>
+                <option>Enviado</option>
+                <option>Entregado</option>
+              </select>
+            </td>
+            <td><button class="btn btn-primary btn-sm">Actualizar</button></td>
+          </tr>
+          <tr>
+            <td>002</td>
+            <td>María Gómez</td>
+            <td>Pizza Pepperoni Personal</td>
+            <td>
+              <select class="form-select form-select-sm">
+                <option>En preparación</option>
+                <option>Enviado</option>
+                <option>Entregado</option>
+              </select>
+            </td>
+            <td><button class="btn btn-primary btn-sm">Actualizar</button></td>
+          </tr>
+          <tr>
+            <td>003</td>
+            <td>Carlos López</td>
+            <td>Perro Caliente</td>
+            <td>
+              <select class="form-select form-select-sm">
+                <option>En preparación</option>
+                <option>Enviado</option>
+                <option>Entregado</option>
+              </select>
+            </td>
+            <td><button class="btn btn-primary btn-sm">Actualizar</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="Crear">
+        <h3>Asignar Un Repartidor</h3>
+        <form class="form-asignar">
+          <label for="pedido">ID Pedido:</label>
+          <input type="text" id="pedido" class="form-control" placeholder="Ej: 004" required>
+
+          <label for="repartidor">Nombre del repartidor:</label>
+          <input type="text" id="repartidor" class="form-control" placeholder="Ej: Julian Castro" required>
+
+        <a href="#" class="boton-dec">Asignar</a>
+        </form>
+      </div>
+      
+      <div class="back-link">
+        <a href="Administrador.html" class="boton-dec">Volver al Menú de Administrador</a>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

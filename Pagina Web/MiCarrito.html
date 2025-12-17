@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="CSS1/MiCarrito.css">
+   <title>Mi Carrito</title>
+</head>
+<body>
+
+  <header class="bg-primary text-white text-center py-3">
+    <img src="IMG/35703b18-43bb-4550-a453-cf199b9bab9b.png" alt="Logo" class="logo">
+    <h1>QuickBite Express</h1>
+  </header>
+
+  <main class="container my-4">
+    <h2 class="text-center mb-4">Mi Carrito de Compras</h2>
+
+    <table class="table table-bordered table-striped text-center">
+      <thead class="table-dark">
+        <tr>
+          <th>N°</th>
+          <th>Nombre del Producto</th>
+          <th>Cantidad</th>
+          <th>Precio Unitario</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Hamburguesa Clásica</td>
+          <td><input type="number" min="0" value="2" class="form-control text-center"></td>
+          <td>$15,000.00</td>
+          <td>$30,000.00</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Pizza Pepperoni Personal</td>
+          <td><input type="number" min="0" value="1" class="form-control text-center"></td>
+          <td>$20,000.00</td>
+          <td>$20,000.00</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Gaseosa 500ml</td>
+          <td><input type="number" min="0" value="3" class="form-control text-center"></td>
+          <td>$5,000.00</td>
+          <td>$15,000.00</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Perro Caliente</td>
+          <td><input type="number" min="0" value="1" class="form-control text-center"></td>
+          <td>$13,000.00</td>
+          <td>$13,000.00</td>
+        </tr>
+        <tr>
+          <td>5</td>    
+          <td>Papas a la Francesa</td>
+          <td><input type="number" min="0" value="2" class="form-control text-center"></td>
+          <td>$8,000.00</td>
+          <td>$16,000.00</td>
+        </tr>
+      </tbody>
+    </table>
+<!--perdor profe no supe como hacer para que el total cambie segun los productos seleccionados supongo que el js-->
+    <div class="text-end">
+      <h4>Total a pagar: <strong>$94,000.00</strong></h4>
+    </div>
+
+    <hr>
+
+    <section class="metodo-pago my-4">
+      <h4>Método de Pago</h4>
+      <select class="form-select w-50">
+        <option>Selecciona un método</option>
+        <option>Tarjeta de Crédito</option>
+        <option>Tarjeta Débito</option>
+        <option>Nequi</option>
+        <option>Daviplata</option>
+        <option>Pago en Efectivo</option>
+      </select>
+    </section>
+
+    <div class="text-center mt-4">
+      <a href="Facturas.html" class="btn btn-secondary btn-lg">Confirmar Pedido</a>
+      <a href="MenuClientes.html" class="btn btn-secondary btn-lg">Volver al Menú</a>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    <p>© 2025 QuickBite Express</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+ /* El encabezado de Menu QuickBite Express*/
+.bg-primary {
+  background-color: #51001a !important;
+}
+
+/*con esto separo el logo del nombre */
+.bg-primary {
+    display: flex;
+    align-items: center; /* centra verticalmente */
+    justify-content: center; /* centra horizontalmente todo el bloque */
+    position: relative/*para separarlos y que no se centren ambos*/
+}
+
+/* tamaño del logo */
+.logo {
+    position: absolute;
+    left: 0px;
+    width: 100px;
+    height: 88px;
+    filter: none;
+    opacity: 1;
+}
+
+/*titulo para arriba de la tabla*/
+h2 {
+  color: red;
+  font-weight: bold;
+}
+/*para la clase metodo de pago*/
+.metodo-pago h4 {
+  margin-bottom: 10px;  
+}
+
+input[type="number"] {
+  max-width: 70px;/*largo del boton la metodos d pago*/
+  margin: 0 auto;
+}
+/*con esta cambion el valores de ambos botones por que los agrupe en la misma clase, bueno ya venian asi desde el bootstrap*/
+.btn {
+  background-color: #1c8a9d;
+}
+.btn:hover {
+  background-color: #1f408c;
+}
+
+/*no funciona supongo que por el color predeterminado del boosttrap :c  */
+.table thead { 
+  background-color: #51001a; 
+}
+

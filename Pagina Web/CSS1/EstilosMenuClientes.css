@@ -1,0 +1,165 @@
+/*general*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+/*tampoco pude acomodar el tamaña del logo ni usando el codigo de MiCarrito*/
+.header-content {
+  background-color: #51001a !important;
+  color: #ffffff;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  position: relative;
+  height: 150px;
+}
+.header-content h1 {
+  font-size: 40px; 
+  font-weight: bold; 
+}
+
+
+/* logo a la izquierda */
+.logo {
+    position: absolute;
+    left: 0px;
+    width: 100px; /* ajustar el tamaño  */
+    height: 80px;
+    filter: none;
+    opacity: 1;
+}
+
+/*las 2 imagenes de Menu para clientes con la funcion hover una es svg la otra no :/  queria hacer la imagen lambien un link pero no supe como */
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.section img {
+    width: 120px;
+    height: auto;
+    border: 2px solid rgb(32, 19, 19);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #110d0d;
+    margin-bottom: 10px;
+    padding: 5px;
+    opacity: 0.9;
+    filter: grayscale(30%);
+    transition: transform 0.3s ease;
+}
+
+.section img:hover {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+}
+
+.section a {
+    display: block;
+    margin-top: 10px;
+}
+
+
+/*separar logo de nombre */
+.header-content {
+    display: flex;
+    align-items: center; /* centra verticalmente */
+    justify-content: center; /* centra horizontalmente todo el bloque */
+    gap: 30px; /* separa el logo del texto */
+}
+
+/* tamaño del logo */
+.logo {
+    width: 150px; /* ajusta el tamaño a tu gusto */
+    height: auto;
+    filter: none;
+    opacity: 1;
+}
+
+/*Esto es la animacion del boton de Mi carrito*/
+.section a {
+    color: #ffffff;
+    text-decoration: none;/* le quito el subrayado */
+    font-weight: bold;/* hace el texto un poco más grueso */
+    display: inline-block;
+    margin-top: 40px; /*altura de boton mi carrito */
+    font-size: 25px; /*tamaño general*/
+    padding: 10px 20px;/*cambio el tamaño*/
+    background-color: #51001a;
+    border-radius: 8px;/*puntas del cuadro redondeadas*/
+    transition: 0.3s; /*mini animacion "no vi la diferencia tal vez usted si la vea porque yo no(si llega a leer esto)"*/
+}
+  .section a:hover {
+    background-color: #a00000;
+    transform: scale(1.05);
+}
+/*Esto es la animacion del boton de Menu Productos, casi la misma configuracion que la de arriba*/
+.menu-productos {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 25px; 
+    padding: 10px 20px;
+    background-color: #51001a;
+    border-radius: 8px;
+    transition: 0.3s; 
+}
+  .section a:hover {
+    background-color: #a00000;
+    transform: scale(1.05);
+  }
+
+
+/* Cuadro de Fondo */     
+.container {
+    max-width: 600px;
+    height:450px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 0 30px rgba(185, 94, 255, 0.76);
+  }
+  
+  /*barra de volver y mi cuenta*/
+  nav {
+    background-color: #000000;
+    padding: 10px;
+  }
+  /*separar "volver" de "mi cuenta"*/
+  nav {
+    display: flex;
+    justify-content: space-between; /*separa los botones*/
+    align-items: center;
+    padding: 10px 10px;
+}
+
+/*botones de "volver" y "mi cuenta"*/
+nav a button {
+    background-color: #51001a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+nav a button:hover {
+    background-color: #a00000;
+    transform: scale(1.05);
+}
+
+
+.container > h2 {
+    color: #ffb300;
+    text-align: center;
+    font-size: 26px;
+}

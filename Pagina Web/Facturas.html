@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Factura - QuickBite Express</title>
+  <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS1/Facturas.css">
+</head>
+<body>
+
+  <header class="encabezado">
+    <img src="IMG/35703b18-43bb-4550-a453-cf199b9bab9b.png" alt="Logo" class="logo">
+    <h1>QuickBite Express</h1>
+  </header>
+
+  <nav class="marconegro">
+    <a href="MenuClientes.html" class="MenuClientes">Regresar al Menú</a>
+  </nav>
+
+  <main class="container mt-4">
+    <h2 class="text-center mb-4">Factura de Compra</h2>
+
+    <table class="table table-bordered text-center align-middle">
+      <thead class="table-dark">
+        <tr>
+          <th>N°</th>
+          <th>Nombre del Producto</th>
+          <th>Cantidad</th>
+          <th>Precio Unitario</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Hamburguesa Clásica</td>
+          <td>2</td>
+          <td>$15,000</td>
+          <td>$30,000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Pizza Pepperoni Personal</td>
+          <td>1</td>
+          <td>$20,000</td>
+          <td>$20,000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Gaseosa 500ml</td>
+          <td>3</td>
+          <td>$5,000</td>
+          <td>$15,000</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Papas a la Francesa</td>
+          <td>1</td>
+          <td>$8,000</td>
+          <td>$8,000</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Perro Caliente</td>
+          <td>1</td>
+          <td>$13,000</td>
+          <td>$13,000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4" class="text-end fw-bold">Total sin impuesto:</td>
+          <td>$86,000</td>
+        </tr>
+        <tr>
+          <td colspan="4" class="text-end fw-bold">IVA (16%):</td>
+          <td>$13,760</td>
+        </tr>
+        <tr>
+          <td colspan="4" class="text-end fw-bold">Descuento aplicado:</td>
+          <td>-$4,000</td>
+        </tr>
+        <tr class="table-info">
+          <td colspan="4" class="text-end fw-bold">Total a pagar:</td>
+          <td class="fw-bold">$95,760</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div class="text-center mt-4">
+      <button class="btn-descargar">Descargar PDF</button>
+    </div>
+  </main>
+
+</body>
+</html>
